@@ -62,8 +62,8 @@ if abs(diff_percent) > 5:
     for article in formatted_articles:
         message = client.messages.create(
             body = article,
-            from_ = "+17085463190",
-            to = "+918590792815"
+            from_ = "+45678",
+            to = "+23456789"
         )
 
 
